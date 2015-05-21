@@ -29,7 +29,7 @@ class FizzbuzzTest < Minitest::Test
     assert_equal(13, Fizzbuzz.new.fizzbuzz(13))
   end
 
-  def test_start_program_with_numbers
+  def test_start_returns_fizzbuzzed_array
     assert_equal([1, 2, "Fizz", 4, "Buzz"] , Fizzbuzz.new.start(5))
   end
 end
